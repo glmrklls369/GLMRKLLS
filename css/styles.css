@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  border-left: 5px;
+}
+
+header {
+  background-color: black;
+  height: 40px;
+  color: white;
+  text-align: center;
+}
+#logo {
+  font-family: "futura";
+}
+
+a {
+  color: #90d935;
+  text-decoration: none;
+  font-family: "Raleway";
+}
+nav {
+  background-color: white;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.gucci {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  border-width: 10px;
+}
+p {
+  color: white;
+  font-family: "Futura";
+}
+
+/* @media only screen and (min-width: 768px); */
