@@ -1,6 +1,7 @@
 body {
   background-color: black;
-  border-left: 5px;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
 }
 
 header {
@@ -8,6 +9,7 @@ header {
   height: 40px;
   color: white;
   text-align: center;
+  font-size: 20px;
 }
 #logo {
   font-family: "futura";
@@ -17,6 +19,9 @@ a {
   color: #90d935;
   text-decoration: none;
   font-family: "Raleway";
+}
+a:hover {
+  color: turquoise;
 }
 nav {
   background-color: white;
@@ -34,6 +39,7 @@ nav {
 p {
   color: white;
   font-family: "Futura";
+  padding: 5px;
 }
 
 /* @media only screen and (min-width: 768px); */
